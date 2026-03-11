@@ -20,6 +20,7 @@ const addLike = (req, res) => {
     })
 };
 
+// 좋아요 삭제
 const removeLike = (req, res) => {
     const {id} = req.params;    // book_id
     const {user_id} = req.body;
